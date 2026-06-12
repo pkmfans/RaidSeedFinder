@@ -355,11 +355,11 @@
     </style>
 </head>
 <body>
-    <a id="discord-bar" href="https://discord.gg/windswaves" target="_blank">Join the Oceanside Pokémon Discord!</a>
+    <a id="discord-bar" href="https://discord.gg/plza" target="_blank">Join the Oceanside Pokémon Discord!</a>
 
     <img id="header-image" src="https://i.imgur.com/EZbXKmd.png" alt="Shiny Raid Seeds Banner">
     <h1>✨ Shiny Raid Seeds ✨</h1>
-    <div class="small-text">Made mainly for Oceanside Pokémon</div>
+    <div class="small-text">Made by Kevdog for Oceanside Pokémon</div>
 
     <form id="filterForm">
         <div class="form-grid">
@@ -491,7 +491,7 @@
 
                 const endNumber    = seed.starLevel <= 2 ? 3 : 6;
                 const adjustedStar = seed.starLevel <= 2 ? 3 : seed.starLevel;
-                const command      = `.ra ${seed.seed} ${adjustedStar} ${endNumber}`;
+                const command      = `<@1159331519173763144> ra ${seed.seed} ${adjustedStar} ${endNumber}`;
 
                 const li = document.createElement('li');
                 li.className = 'seed';
